@@ -5,7 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet" />
     <title>cssMemeSlider</title>
   </head>
-  <body></body>
+  <body>
+    <div class="slider wrap">
+      <div class="slides">
+        <input type="radio" name="circkle" id="c1" checked />
+        <input type="radio" name="circkle" id="c2" />
+        <input type="radio" name="circkle" id="c3" />
+        <input type="radio" name="circkle" id="c4" />
+
+        <div class="slide c1">
+          <img src="./images/meme1.jpg" alt="" />
+          <p>купил</p>
+        </div>
+        <div class="slide">
+          <img src="./images/meme2.1.jpg" alt="" />
+          <p>мужик шляпу</p>
+        </div>
+        <div class="slide">
+          <img src="./images/meme7.jpg" alt="" />
+          <p>а она ему</p>
+        </div>
+        <div class="slide">
+          <img src="./images/meme4.jpg" alt="" />
+          <p>как раз</p>
+        </div>
+      </div>
+
+      <div class="navigation">
+        <label for="c1" class="nav_lab lab1"></label>
+        <label for="c2" class="nav_lab lab2"></label>
+        <label for="c3" class="nav_lab lab3"></label>
+        <label for="c4" class="nav_lab lab4"></label>
+      </div>
+    </div>
+  </body>
 </html>
