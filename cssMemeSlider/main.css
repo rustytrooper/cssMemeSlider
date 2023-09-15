@@ -134,6 +134,18 @@ input:checked {
 }
 
 @media (max-width: 990px) {
+  .slider.wrap {
+    flex-wrap: wrap;
+    width: 70%;
+    height: 100%;
+    align-items: center;
+  }
+
+  .slides {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .navigation {
     margin: 0.5% 0% 1% 10%;
   }
@@ -146,11 +158,6 @@ input:checked {
   }
   .slides > .p_wrap {
     order: 3;
-  }
-}
-@media (max-width: 900px) {
-  .slider.wrap {
-    width: 70%;
   }
 }
 
